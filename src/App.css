@@ -3,34 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  background-color: #242424;
 }
 
 .card {
@@ -58,4 +31,29 @@
 .card p{
   margin-top: 0;
   font-size: 25px;
+
+}
+.contenedorEvento{
+  background-color: rgb(174, 255, 127);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+.contenedorEvento p{
+  font-size: 50px;
+  color: #242424;
+  user-select: none;
+}
+.contenedorEvento input{
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #888;
+}
+.contenedorEvento button{
+  width: 40%;
+  margin-bottom: 30px;
 }
