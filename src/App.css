@@ -6,54 +6,25 @@
   background-color: #242424;
 }
 
-.card {
-  padding: 2em;
-}
+.carta {
+  padding: 2em; }
 
-.read-the-docs {
-  color: #888;
-}
-.contenedor{
-  display: flex;
-  gap: 15px;
-}
-.card{
+.carta{
   background-color: goldenrod;
   width: 130%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 20px;
-}
-.card img{
-  width: 100%;
-
-}
-.card p{
-  margin-top: 0;
-  font-size: 25px;
-
-}
-.contenedorEvento{
-  background-color: rgb(174, 255, 127);
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  border-radius: 10px;
   align-items: center;
 }
-.contenedorEvento p{
-  font-size: 50px;
-  color: #242424;
+.carta p{
+  font-size: 25px;
+  margin-top: 0;
   user-select: none;
+  
 }
-.contenedorEvento input{
-  height: 30px;
-  width: 80%;
-  border-radius: 10px;
-  margin-top: 10px;
-  background-color: #888;
-}
-.contenedorEvento button{
-  width: 40%;
-  margin-bottom: 30px;
+.carta button{
+  width: 30%;
 }
