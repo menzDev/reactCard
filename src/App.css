@@ -1,9 +1,31 @@
-#root {
-  max-width: 1280px;
+body{
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   background-color: #242424;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor{
+  display: flex;
+  gap: 30px;
 }
 
 .carta {
@@ -27,4 +49,9 @@
 }
 .carta button{
   width: 30%;
+}
+
+/* Contador */
+.contador h1{
+color: white;
 }

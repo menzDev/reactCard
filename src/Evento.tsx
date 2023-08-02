@@ -1,6 +1,8 @@
 import "./App.css";
 import reysito from "./assets/rey_atanagildo.png";
 import reyII from "./assets/rey_teodorico.png";
+import reyIII from "./assets/rey_ervigio.png";
+import reyIncognito from "./assets/rey_incognito.png";
 import { useRef } from "react";
 
 function Evento() {
@@ -30,7 +32,8 @@ e.target.style.backgroundColor = "blue"
   const cambiarRey =(i) =>{
       if(i.target.src.includes("atanagildo")){
         i.target.src = reyII
-    } else{
+    } 
+    else{
         i.target.src = reysito
     }
   }
