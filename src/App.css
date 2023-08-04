@@ -55,3 +55,22 @@ body{
 .contador h1{
 color: white;
 }
+
+/* Reyes Godos */
+
+.btnGodos{
+  font-size: 30px;
+}
+.godos{
+  color: #fff;
+}
+.reyes{
+
+  font-size: 30px;
+}
+.rojo{
+  color: red;
+}
+.verde{
+  color: green;
+}
