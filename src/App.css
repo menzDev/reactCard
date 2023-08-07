@@ -74,3 +74,20 @@ color: white;
 .verde{
   color: green;
 }
+
+/* Divisas */
+.divisas{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  color: #fff;
+  font-size: 20px; 
+  margin-top: 15px;
+}
+input{
+  width: 150px;
+  height: 40px; 
+  border-radius: 10px;
+  font-size: 30px;
+}

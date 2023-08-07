@@ -6,6 +6,7 @@ import Carta3 from "./Carta3.tsx";
 import Contador from "./Contador.js";
 import './App.css'
 import ReyesGodos from './ReyesGodos.tsx';
+import Divisas from "./Divisas.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 {/*     <Evento/> */}
 {/*     <Carta3/> */}
     {/* <Contador/> */}
-    <ReyesGodos/>
+   {/*  <ReyesGodos/> */}
+   <Divisas/>
   </React.StrictMode>,
 )
