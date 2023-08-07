@@ -2,7 +2,7 @@ body{
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #242424;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -14,7 +14,7 @@ body{
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #242424;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -23,11 +23,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-.contenedor{
-  display: flex;
-  gap: 30px;
-}
-
 .carta {
   padding: 2em; }
 
@@ -90,4 +85,16 @@ input{
   height: 40px; 
   border-radius: 10px;
   font-size: 30px;
+}
+
+/* comprar reyes godos */
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  user-select: none;
+}
+.contenedor h2{
+text-align: left;
 }

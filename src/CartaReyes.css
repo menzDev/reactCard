@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Poppins:ital,wght@1,200&family=Roboto+Slab:wght@300&family=Roboto:wght@100;500&display=swap");
+
+#root {
+  font-family: "Instrument Serif", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cartaReyes {
+  background-color: rgb(0, 89, 255);
+  border-radius: 20px;
+  padding: 20px;
+}
+.imgReyes {
+  width: 100%;
+}
+.precios,
+.valorPrecio,
+.btn,
+.nombre {
+  text-align: left;
+  color: white;
+  margin: 5px;
+}
+.nombre {
+  font-size: 30px;
+  font-weight: bold;
+}
