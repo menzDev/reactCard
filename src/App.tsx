@@ -1,14 +1,15 @@
 import "./App.css";
 import ComprarReyes from "./ComprarReyes";
+import { useState } from "react";
 
 function App() {
+ 
   const nombres = ["Atanagildo", "Che", "Pepin"];
   return (
     <>
       <div className="contenedor">
-        <h2>Total a pagar: $ 0 </h2>
         <div className="container">
-          <ComprarReyes />
+              <ComprarReyes />
         </div>
       </div>
     </>
