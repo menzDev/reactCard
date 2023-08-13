@@ -12,9 +12,10 @@ import res from "./assets/rey_recesvinto.png";
 import "./CartaReyes.css";
 
 
-export default function ComprarReyes() {
+export default function ComprarReyes({cenarReyes}) {
   const [total,setTotal] = useState(0)
   
+
   const reyes=[
     {
       nombre:"Atanagildo",
@@ -50,12 +51,13 @@ export default function ComprarReyes() {
     }
   ]
 
-  const comprar = () => {
 
-  };
   return (
 reyes.map((el, index) =>{
- 
+  const comprar = (e) => {
+    cenarReyes((e)=> e + reyes[index].precio)
+    e.target.parentNode.parentNode.style.display = "none"
+  };
   return(
     <div className='cartaReyes' style={{ backgroundColor: reyes[index].color }} key={index}>
       <p className='nombre'>{reyes[index].nombre}</p>
